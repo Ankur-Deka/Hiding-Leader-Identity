@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Identify the leader</title>
+		<link href="styles.css" rel=stylesheet>
+	</head>
+
+	<body>
+		<div id="intro">
+			<h1>Identify the leader</h1>
+			<h4>There is a swarm of robots which all look identical but one of them is the leader. The leader knows the goal, which is invisible to you. The other robots don't know the goal but know who the leader is and are artificially intelligent enough to reach the goal. You as a human are tasked with identifying who the leader is. Are you smart enough to beat the artificial intelligence?
+
+			<ul>
+				<li>You would be shown multiple episodes. For each episode you would be shown a video of swarm agents.</li>
+				<li>Each agent will be numbered with its ID. The ID of the leader may differ in each episode. Your task is to identify the leader ID in each episode.</li>
+				<li>Press spacebar when you've identified the leader and are ready to select an answer. There is a score counter that counts down from 100 to 0, indicating the maximum score possible for current episode. You would have to press spacebar before the video ends to earn a score.</li>
+				<li>Once you press spacebar, the video will pause and you need to click on an answer button. You then need to choose your confidence on the answer with a slider.</li>
+				<li>You would get a non-zero score if you press spacebar on time and select the right answer.</li>
+			</ul>
+			</h4>
+			<img src="cover_img.png" width="500">
+		</div>
+		<div id="instructions" class="bigText">
+			You will now see 3 demo episodes to get used to the system
+		</div>
+
+		<span id="progress" class="bigText hide">Episode 1/3 | </span>
+		<span id="scorecard" class="scorecard bigText hide">Score | Overall 0/0 | </span>
+		<span id="counter" class="counter bigText hide"></span>
+		<button id="start-btn">Start</button>
+		<div id="question-container" class="hide">
+			<video class="video" width="600">
+				<!-- <source src="1.mp4" type="video/mp4"> -->
+			</video>
+			<div class="question normalText">
+				Who do you think is the leader?	
+			</div>
+			<textarea class="textInput hide" placeholder="Enter your observations"></textarea>
+		</div>
+		<div id="answer-buttons"></div>
+
+		<div class="slidecontainer, hide" id="slider-container">
+		  	<input type="range" min="0" max="100" value="50" class="slider" id="confidence-slider">
+		  	<div class="text"></div>
+		</div>
+		<button id="submit-btn" class="hide">Submit</button>
+		<div id="result" class="hide"></div>	
+		<button id="next-btn" class="hide">Next</button>
+		
+
+		<div id="coupon" class="hide bigText">Paste this coupon at MTurk: </div>
+
+		<div id="end" class="hide">
+			<h4>Thank you for your time. Your data would help us push the research in swarm robotics and artificial intelligence.</h4>
+		</div>
+		<script src="script.js"></script>
+		
+	</body>
+
+</html>
+
