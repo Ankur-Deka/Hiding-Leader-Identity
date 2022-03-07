@@ -9,7 +9,7 @@ This is the official repository for the following two papers:
 2. **Human vs. Deep Neural Network Performance at a Leader Identification Task**<br/>
    Ankur Deka, Michael Lewis, Huao Li, Phillip Walker, Katia Sycara*<br/>
    *Accepted to Human Factors and Ergonomics Society ([HFES](https://www.hfes.org/Events/International-Annual-Meeting)) Annual Meeting 2021*<br/>
-   Paper Link: [HFES](https://journals.sagepub.com/doi/abs/10.1177/1071181321651127)
+   Paper Link: [PITT](https://sites.pitt.edu/~cmlewis/pubs/ankur-hfes.pdf), [HFES](https://journals.sagepub.com/doi/abs/10.1177/1071181321651127)
 
 ## Installation
 
