@@ -5,11 +5,11 @@ This is the official repository for the following two papers:
 1. **Hiding Leader's Identity in Leader-Follower Navigation through Multi-Agent Reinforcement Learning**<br/>
    Ankur Deka, Wenhao Luo, Huao Li, Michael Lewis, Katia Sycara<br/>
    *Accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems ([IROS](https://www.iros2021.org/)) 2021*<br/>
-   Paper Link: [Arxiv](https://arxiv.org/abs/2103.06359), Proceedings link will appear soon
+   Paper Link: [Arxiv](https://arxiv.org/abs/2103.06359), [IROS](https://ieeexplore.ieee.org/abstract/document/9636314)
 2. **Human vs. Deep Neural Network Performance at a Leader Identification Task**<br/>
    Ankur Deka, Michael Lewis, Huao Li, Phillip Walker, Katia Sycara*<br/>
    *Accepted to Human Factors and Ergonomics Society ([HFES](https://www.hfes.org/Events/International-Annual-Meeting)) Annual Meeting 2021*<br/>
-   Paper Link: Will appear soon
+   Paper Link: [HFES](https://journals.sagepub.com/doi/abs/10.1177/1071181321651127)
 
 ## Installation
 
